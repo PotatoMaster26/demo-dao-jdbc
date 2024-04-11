@@ -52,7 +52,7 @@ public class SellerDaoJBDC implements SellerDao{
 				DB.closeResultSet(rs);
 			}
 			else {
-				throw new DbException("Erro inesperado! Nenhuma linh foi afetada!");
+				throw new DbException("Erro inesperado! Nenhuma linha foi afetada!");
 			}
 		}
 		catch (SQLException e) {
